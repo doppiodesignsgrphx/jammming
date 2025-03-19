@@ -1,6 +1,5 @@
 import React from 'react';
 import Track from './Track';
-import PlusIcon from './PlusIcon';
 import './tracklist.css';
 
 function Tracklist({ searchResults, addToPlaylist, track, showPlusIcon }) {

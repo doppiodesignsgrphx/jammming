@@ -6,7 +6,7 @@ export default function Track ({trackName, artist, albumName, artistImage, addTo
     
     return(
     <div className="track-container">
-        <div><img className="album-thumbnail" src={artistImage}/></div>
+        <div><img className="album-thumbnail" src={artistImage} alt="Album Cover" /></div>
         <div className="track-information">
         <h2>{trackName}</h2> 
         <h4>{artist}</h4>

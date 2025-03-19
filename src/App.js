@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React, {
     useState
@@ -6,9 +5,6 @@ import React, {
 import SearchBar from './SearchBar';
 import Tracklist from './Tracklist';
 import Playlist from './Playlist';
-import {
-    SampleTracks
-} from './SampleData';
 import Spotify from './Spotify';
 
 
