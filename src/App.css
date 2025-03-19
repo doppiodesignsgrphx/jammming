@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header h1 {
+    
+    font-family: 'Barrio';
+    font-size: 100px;
+    color: #febc12;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4 );
+    text-align: center   
+    
+}
+
+.application-bg {
+    background-image: url('./Jammmin-BG.jpg');
+  background-size: cover;         /* Scales the image to cover the container */
+  background-repeat: repeat;   /* Prevents the image from repeating */
+  background-position: center;    /* Centers the image */
+  min-height: 100vh;              /* Ensures the container covers the full viewport height */
+    padding-bottom: 150px;
+    padding-top: 100px;
+}
+
+.playlist-tracklist-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 100px
+    
+}
+
+.tracklist{
+    background-color: red;
+    height: 700px;
+    overflow: scroll;
+    border-radius: 20px;
+    background-color: rgba(220, 20, 60, 0.5);
+    padding: 20px 40px
+}
+
+.playlist{
+    background-color: red;
+    height: 700px;
+    overflow: scroll;
+    border-radius: 20px;
+    width: 30vw;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-left: 30px;
+    background-color: rgba(220, 20, 60, 0.5);
 }

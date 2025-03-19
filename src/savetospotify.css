@@ -1,0 +1,11 @@
+/* save to spotify css */
+
+.save-button {
+    border-radius: 50px;
+    padding: 20px 40px;
+    margin-top: 30px;
+    background-color: #febc12;
+    border: none;
+    color: black;
+    font-family: 'Barrio'
+}

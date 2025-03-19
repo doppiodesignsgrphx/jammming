@@ -1,0 +1,34 @@
+/* TRACK LIST CSS */
+
+.search-results-content{
+    overflow: scroll;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+    padding: 0;
+    margin: 0;   
+    
+}
+
+li{
+    text-indent: none;
+}
+
+h1 {
+    padding-left: 30px;
+    color: white;
+}
+
+hr {
+  width: 80%;       /* how wide you want the line */
+  margin: 0 auto;   /* center it horizontally */
+  border: none;     /* remove default border if desired */
+  border-bottom: 1px solid #ccc; /* or whatever style you prefer */
+}
+
+.tracklist-flex-container {
+    text-align: center;
+    
+}

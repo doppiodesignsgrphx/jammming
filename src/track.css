@@ -1,0 +1,21 @@
+/* TRACK CSS */
+
+.track-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    gap: 5rem;
+}
+
+.album-thumbnail{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: 1px solid white;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+.track-information {
+    width: 50%;
+}

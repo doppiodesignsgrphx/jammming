@@ -1,0 +1,42 @@
+/* PLAYLIST CSS */
+.send-to-spotify-button{
+    font-size: 20;
+}
+
+.playlist-container {
+    text-align: center;
+}
+
+.remove-button {
+  
+    background: none;
+  
+    background-color: transparent;
+  
+    border: none; /* if you want to remove borders as well */
+  
+    cursor: pointer; 
+    color: white;
+    text-decoration: underline;
+    padding-top: 10px
+    
+}
+
+.playlist-name {
+    font-family: 'Barrio';
+    font-size: 40px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    color: white;
+    text-overflow: ellipsis;
+    
+}
+
+.playlist-container input::placeholder {
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    
+}
